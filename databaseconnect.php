@@ -2,10 +2,10 @@
 
 /**CONNECTION STRING FOR DATABASE**/
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "gonglive";
+$host = "HOST";
+$user = "USER";
+$pass = "PASSWORD";
+$db = "DATABASENAME";
 
 $connect = mysqli_connect($host, $user, $pass, $db);
 
