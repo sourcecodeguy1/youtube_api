@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>		
+        <title>Search your YouTube video</title>
+        <meta charset="UTF-8" />					
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Awesome videos!" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="row con">
+
+            <div class="col-md-6 col-md-offset-4">
+                <div style="width: 47%; height: 50px; margin-left: 22px; display: none" id="success" class="alert-success text-center"><div  style="padding-top: 15px; padding-right: 15px;"></div></div>
+
+                <div style="width: 47%; height: 50px; margin-left: 22px; display: none" id="error" class="alert-danger text-center"><div style="padding-top: 15px; padding-right: 15px;"></div></div>
+
+                <form>
+                    <p><input type="text" id="search" placeholder="Search YouTube video" autocomplete="off" class="form-control" required /></p>
+                    <p>
+                        <button type="submit" id="youtube_video_search" class="form-control btn btn-primary w100">
+                            <span class="glyphicon glyphicon-search"></span> Search
+                        </button>
+                    </p>
+                </form>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-6 col-md-offset-3">
+                <div id="results"></div>
+            </div>
+
+        </div>
+
+        <!-- scripts -->
+        <script src="./jquery-3.3.1.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=youtube_api"></script>
+    </body>
+</html>
+

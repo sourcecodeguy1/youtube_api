@@ -1,0 +1,25 @@
+header { margin-top: 30px; }
+header a { color: black; text-decoration: none; }
+header a:hover { text-decoration: none; }
+form { margin-top: 20px; }
+form, #results { padding: 0 20px; }
+.item { margin-bottom: 25px; }
+.w100 { width: 100%; }
+#search{width: 50%;}
+#youtube_video_search{width: 50%;}
+.con{padding-top: 100px;}
+.selection{border: 6px solid #857c7d; color: #3ea441}
+.selection:hover{cursor: pointer;}
+
+.holder{
+    position:relative;
+}
+
+.bar{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    margin-bottom: 20px;
+    height: 30px;
+}
