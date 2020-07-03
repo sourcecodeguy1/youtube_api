@@ -1,2 +1,6 @@
 # youtube_api
-This is a form that displays embedded YouTube videos using the YouTube API.
+Nothing fancy just a simple video search based on a YouTube API.
+Layout: A textbox to type and search a video. Added a button to submit the request.
+Logic: Used JavaScript to hold API Key. Also, used jQuery/Ajax to make asynchronous calls to back-end.
+Back-end: Used PHP and MySQL.
+Style: Used Bootstrap
